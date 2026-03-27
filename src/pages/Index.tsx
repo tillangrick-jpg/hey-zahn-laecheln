@@ -27,7 +27,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative overflow-hidden" aria-label="Willkommen">
-        <div className="bg-secondary">
+        <div className="bg-background">
           <div className="container py-12 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
               <img src={logo} alt="hey :) Kieferorthopädie Pankow" className="h-20 md:h-28 w-auto" />
