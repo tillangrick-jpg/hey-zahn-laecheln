@@ -49,7 +49,7 @@ const treatments = [
           "80 % der Kosten übernimmt die Krankenkasse sofort.",
           "20 % zahlen die Eltern zunächst selbst.",
         ],
-        after: <>Nach erfolgreichem Abschluss der Behandlung werden diese 20 % vollständig zurückerstattet.{"\n\n"}Bei Erwachsenen übernehmen die Krankenkassen die Kosten, wenn eine schwerwiegende Bissfehlstellung vorliegt, die eine <span className="font-bold">kombiniert kieferorthopädisch‑kieferchirurgische Therapie</span> notwendig macht.{"\n\n"}Wenn zusätzlicher Komfort gewünscht wird, zum Beispiel durchsichtige Brackets, professionelle Zahnreinigungen oder andere Extras, entstehen private Zusatzkosten. Diese besprechen wir im Voraus transparent und halten sie vertraglich fest. Auf Wunsch ist eine Ratenzahlung möglich.</>,
+        after: <>Nach erfolgreichem Abschluss der Behandlung werden diese 20 % vollständig zurückerstattet.{"\n\n"}Bei Erwachsenen übernehmen die Krankenkassen die Kosten, wenn eine schwerwiegende Bissfehlstellung vorliegt, die eine <span className="font-bold">kombiniert kieferorthopädisch‑kieferchirurgische Therapie</span> notwendig macht.{"\n\n"}<span className="font-bold">Wenn zusätzlicher Komfort gewünscht wird, zum Beispiel durchsichtige Brackets, professionelle Zahnreinigungen oder andere Extras, entstehen private Zusatzkosten.</span> Diese besprechen wir im Voraus transparent und halten sie vertraglich fest. Auf Wunsch ist eine Ratenzahlung möglich.</>,
       },
       {
         subtitle: "Privat Versicherte",
