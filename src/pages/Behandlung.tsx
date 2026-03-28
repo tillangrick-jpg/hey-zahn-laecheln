@@ -11,7 +11,7 @@ const treatments = [
     imagePosition: "center 30%",
     sections: [
       {
-        content: <>Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. <span className="font-bold">In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken.</span> Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.{"\n\n"}In den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.</>,
+        content: <>Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. <span className="font-bold">In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken.</span> Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.{"\n\n"}In den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. <span className="font-bold">Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.</span></>,
       },
     ],
     color: "bg-secondary",
