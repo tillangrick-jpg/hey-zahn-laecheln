@@ -27,7 +27,6 @@ const treatments = [
     color: "bg-secondary",
   },
   {
-    icon: User,
     title: "Erwachsene",
     sections: [
       {
