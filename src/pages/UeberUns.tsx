@@ -35,20 +35,33 @@ const UeberUns = () => {
               Master of Science Kieferorthopädie · Fachzahnärztin für Kieferorthopädie
             </p>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p className="text-xl font-semibold text-foreground">Hey :)</p>
               <p>
-                Dr. Julie Charlotte Angrick ist Fachzahnärztin für Kieferorthopädie und 
-                Master of Science in Kieferorthopädie. Mit großer Leidenschaft und Fachkompetenz 
-                widmet sie sich der Korrektur von Zahnfehlstellungen bei Kindern, Jugendlichen und Erwachsenen.
+                schön, dass ich mich vorstellen darf. Ich bin mit Leib und Seele Kieferorthopädin 
+                und liebe meinen Beruf. Für mich steht jeder Mensch als Ganzes im Mittelpunkt mit 
+                individuellen Bedürfnissen, persönlichen Anliegen und unterschiedlichen Lebenssituationen. 
+                Mein Ziel ist es, dass sich alle, die zu mir kommen, sicher, verstanden und wirklich wohlfühlen.
               </p>
               <p>
-                Nach ihrem Studium der Zahnmedizin und der Weiterbildung zur Fachzahnärztin für 
-                Kieferorthopädie hat sie umfangreiche Erfahrung in der Behandlung mit festen und 
-                losen Zahnspangen sowie modernen Aligner-Systemen wie Invisalign gesammelt.
+                Neben meiner Arbeit liebe ich Kunst und Design. An Wochenenden besuche ich gerne 
+                Ausstellungen oder Kulturveranstaltungen, lasse mich inspirieren und entdecke neue 
+                Perspektiven. Ich lebe in Pankow, gemeinsam mit meinem Mann und unserer wunderbaren 
+                Tochter und schätze unseren Kiez mit all seinen Facetten sehr.
               </p>
-              <p>
-                Ihr ganzheitlicher Ansatz und ihre einfühlsame Art machen den Besuch in der Praxis 
-                für Patienten jeden Alters zu einer positiven Erfahrung.
-              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-foreground mb-3">Vita</h3>
+              <ul className="space-y-1.5 text-muted-foreground text-sm leading-relaxed list-disc list-inside">
+                <li>geboren in Heidelberg</li>
+                <li>2008–2014: Studium der Zahnmedizin an der MHH Hannover und Charité Berlin</li>
+                <li>2014 Staatsexamen</li>
+                <li>2016 Curriculum Kinderzahnheilkunde</li>
+                <li>2017–2020 Master of Science Kieferorthopädie, DUK Krems</li>
+                <li>2021 Promotion „magna cum laude" an der Charité Berlin</li>
+                <li>2020–2023 Weiterbildung zur Fachzahnärztin, Jagiellonen-Universität Krakau und Fachpraxis in Berlin</li>
+                <li>2023–2026 Leitung MVZ Ringcenter Dr. Dörfer Kieferorthopädie in Friedrichshain</li>
+                <li>2026 Gründung von hey :)</li>
+              </ul>
             </div>
           </div>
         </div>
