@@ -17,7 +17,7 @@ const treatments = [
   },
   {
     image: jugendlicheImg,
-    imagePosition: "center 40%",
+    imagePosition: "center 45%",
     title: "Jugendliche",
     sections: [
       {
