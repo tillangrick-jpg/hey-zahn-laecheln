@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Euro, Users, User } from "lucide-react";
+import { Euro, User } from "lucide-react";
 import kinderImg from "@/assets/kinder-zahnspange.jpg";
+import jugendlicheImg from "@/assets/jugendliche-zahnspange.jpg";
 
 const treatments = [
   {
