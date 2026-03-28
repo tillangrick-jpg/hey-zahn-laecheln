@@ -97,12 +97,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             <div className="space-y-2 text-sm opacity-80">
               <p className="flex items-center gap-2"><Phone size={14} /> Telefon: folgt</p>
               <a
-                href="https://www.google.com/maps/place/Pastor-Niem%C3%B6ller-Platz+6,+13156+Berlin"
+                href="https://www.google.com/maps/place/Pastor-Niem%C3%B6ller-Platz+6A,+13156+Berlin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:underline"
               >
-                <MapPin size={14} /> Pastor-Niemöller-Platz 6, 13156 Berlin
+                <MapPin size={14} /> Pastor-Niemöller-Platz 6A, 13156 Berlin
               </a>
               <p className="flex items-center gap-2 text-sm opacity-80"><TrainFront size={14} /> Haltestelle M1 Pastor-Niemöller-Platz · 50 m</p>
             </div>
