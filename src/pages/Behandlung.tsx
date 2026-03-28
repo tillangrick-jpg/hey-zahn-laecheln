@@ -1,36 +1,56 @@
 import { Link } from "react-router-dom";
-import { Baby, SmilePlus, User, Eye, Users } from "lucide-react";
+import { Euro, Baby, Users, User } from "lucide-react";
 
 const treatments = [
   {
-    icon: Baby,
-    title: "Braucht mein Kind eine Zahnspange?",
-    desc: "Erste Anzeichen erkennen – wann ist der richtige Zeitpunkt für einen Besuch beim Kieferorthopäden?",
+    icon: Euro,
+    title: "Kosten",
+    sections: [
+      {
+        subtitle: "Gesetzlich Versicherte",
+        content: `Die gesetzlichen Krankenkassen übernehmen bei Kindern und Jugendlichen bis zum 18. Geburtstag eine kieferorthopädische Behandlung, sofern ein bestimmter Schweregrad vorliegt. Es gilt die sogenannte 80/20‑Regelung:`,
+        list: [
+          "80 % der Kosten übernimmt die Krankenkasse sofort.",
+          "20 % zahlen die Eltern zunächst selbst.",
+        ],
+        after: `Nach erfolgreichem Abschluss der Behandlung werden diese 20 % vollständig zurückerstattet.\n\nBei Erwachsenen übernehmen die Krankenkassen die Kosten, wenn eine schwerwiegende Bissfehlstellung vorliegt, die eine kombiniert kieferorthopädisch‑kieferchirurgische Therapie notwendig macht.\n\nWenn zusätzlicher Komfort gewünscht wird, zum Beispiel durchsichtige Brackets, professionelle Zahnreinigungen oder andere Extras, entstehen private Zusatzkosten. Diese besprechen wir im Voraus transparent und halten sie vertraglich fest. Auf Wunsch ist eine Ratenzahlung möglich.`,
+      },
+      {
+        subtitle: "Privat Versicherte",
+        content: `Ob eine Behandlung bei Ihnen oder Ihrem Kind übernommen wird, hängt vom jeweiligen Tarif ab. Gerne prüfen wir das gemeinsam und unterstützen Sie bei der Klärung.`,
+      },
+    ],
     color: "bg-secondary",
   },
   {
-    icon: SmilePlus,
-    title: "Kieferorthopädie für Kinder",
-    desc: "Frühe Behandlung für gesunde Zahnentwicklung. Lose und feste Zahnspangen als Kassenleistung.",
+    icon: Baby,
+    title: "Kinder",
+    sections: [
+      {
+        content: `Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken. Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.\n\nIn den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.`,
+      },
+    ],
     color: "bg-accent",
   },
   {
     icon: Users,
-    title: "Kieferorthopädie für Jugendliche",
-    desc: "Moderne Behandlungsmethoden für Teenager – diskret und effektiv gegen schiefe Zähne.",
+    title: "Jugendliche",
+    sections: [
+      {
+        content: `In diesem Alter sprechen wir von einer Hauptbehandlung. Sie ist wie eine gemeinsame Reise, die in mehreren Schritten verläuft. Häufig beginnt sie mit einer losen Zahnspange, um Platz zu schaffen, das Wachstum zu lenken oder erste Korrekturen vorzunehmen.\n\nSobald alle bleibenden Zähne durchgebrochen sind, kann die Behandlung mit einer festen Zahnspange fortgesetzt werden. Sind sowohl die Zahnstellung als auch die Bisslage korrigiert, folgt die Retentionsphase. In dieser Phase stabilisieren wir das erreichte Ergebnis, damit das schöne Lächeln langfristig erhalten bleibt.\n\nEine Hauptbehandlung bei Jugendlichen ist selbstverständlich auch mit unsichtbaren, herausnehmbaren Alignern möglich. Eine moderne, ästhetische Alternative zur klassischen festen Zahnspange.`,
+      },
+    ],
     color: "bg-secondary",
   },
   {
     icon: User,
-    title: "Kieferorthopädie für Erwachsene",
-    desc: "Auch im Erwachsenenalter können Zahnfehlstellungen erfolgreich korrigiert werden.",
+    title: "Erwachsene",
+    sections: [
+      {
+        content: `Kieferorthopädie ist in jedem Alter möglich, egal ob es um eine kleine Korrektur der Schneidezähne oder um eine kombiniert kieferorthopädisch kieferchirurgische Bisslageumstellung geht. Entscheidend ist, dass wir gemeinsam ein Ziel definieren und darauf aufbauend eine passende, individuelle Therapie planen.`,
+      },
+    ],
     color: "bg-accent",
-  },
-  {
-    icon: Eye,
-    title: "Unsichtbare Zahnspange",
-    desc: "Aligner und Invisalign – die transparente Alternative zur klassischen Zahnspange. Nahezu unsichtbar.",
-    color: "bg-secondary",
   },
 ];
 
@@ -51,15 +71,40 @@ const Behandlung = () => {
       </section>
 
       <section className="py-16" aria-label="Behandlungsübersicht">
-        <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="container flex flex-col gap-6">
           {treatments.map((t) => (
             <article
               key={t.title}
-              className={`${t.color} rounded-2xl p-8 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer`}
+              className={`${t.color} rounded-2xl p-8 md:p-10`}
             >
-              <t.icon className="text-primary mb-4" size={48} />
-              <h2 className="text-xl font-bold mb-3">{t.title}</h2>
-              <p className="text-muted-foreground">{t.desc}</p>
+              <div className="flex items-center gap-4 mb-6">
+                <t.icon className="text-primary shrink-0" size={40} />
+                <h2 className="text-2xl md:text-3xl font-bold">{t.title}</h2>
+              </div>
+              {t.sections.map((section, i) => (
+                <div key={i} className={i > 0 ? "mt-6" : ""}>
+                  {section.subtitle && (
+                    <h3 className="text-lg font-bold mb-2">{section.subtitle}</h3>
+                  )}
+                  {section.content && (
+                    <p className="text-muted-foreground whitespace-pre-line leading-relaxed">
+                      {section.content}
+                    </p>
+                  )}
+                  {section.list && (
+                    <ul className="list-disc list-inside text-muted-foreground my-3 space-y-1">
+                      {section.list.map((item, j) => (
+                        <li key={j}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {section.after && (
+                    <p className="text-muted-foreground whitespace-pre-line leading-relaxed mt-3">
+                      {section.after}
+                    </p>
+                  )}
+                </div>
+              ))}
             </article>
           ))}
         </div>
