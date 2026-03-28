@@ -22,7 +22,7 @@ const UeberUns = () => {
               Dr. Julie Charlotte <span className="text-primary">Angrick</span>
             </h2>
             <p className="text-primary font-semibold mb-6">
-              Fachzahnärztin für Kieferorthopädie – Master of Science Kieferorthopädie
+              Fachzahnärztin für Kieferorthopädie · Master of Science Kieferorthopädie
             </p>
             <div className="rounded-2xl overflow-hidden shadow-xl max-w-md mx-auto lg:mx-0">
               <img
