@@ -44,7 +44,7 @@ const treatments = [
     sections: [
       {
         subtitle: "Gesetzlich Versicherte",
-        content: `Die gesetzlichen Krankenkassen übernehmen bei Kindern und Jugendlichen bis zum 18. Geburtstag eine kieferorthopädische Behandlung, sofern ein bestimmter Schweregrad vorliegt. Es gilt die sogenannte 80/20‑Regelung:`,
+        content: <><span className="font-bold">Die gesetzlichen Krankenkassen übernehmen bei Kindern und Jugendlichen bis zum 18. Geburtstag eine kieferorthopädische Behandlung, sofern ein bestimmter Schweregrad vorliegt.</span> Es gilt die sogenannte 80/20‑Regelung:</>,
         list: [
           "80 % der Kosten übernimmt die Krankenkasse sofort.",
           "20 % zahlen die Eltern zunächst selbst.",
