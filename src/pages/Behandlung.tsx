@@ -7,6 +7,7 @@ const treatments = [
   {
     title: "Kinder",
     image: kinderImg,
+    imagePosition: "center 30%",
     sections: [
       {
         content: `Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken. Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.\n\nIn den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.`,
@@ -16,6 +17,7 @@ const treatments = [
   },
   {
     image: jugendlicheImg,
+    imagePosition: "center 20%",
     title: "Jugendliche",
     sections: [
       {
@@ -84,7 +86,8 @@ const Behandlung = () => {
                   <img
                     src={t.image}
                     alt={t.title}
-                    className="w-full h-64 object-cover object-[center_30%] rounded-2xl"
+                    className="w-full h-64 object-cover rounded-2xl"
+                    style={{ filter: "saturate(0.85) brightness(1.05)", objectPosition: t.imagePosition || "center" }}
                     style={{ filter: "saturate(0.85) brightness(1.05)" }}
                   />
                   <h2 className="text-2xl md:text-3xl font-bold mt-5">{t.title}</h2>
