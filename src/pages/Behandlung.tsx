@@ -44,7 +44,7 @@ const Behandlung = () => {
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl">
             Von der losen Zahnspange bis zum unsichtbaren Aligner: Wir bieten das gesamte Spektrum 
-            moderner Kieferorthopädie. <span className="font-bold text-foreground">Jeder Erstberatungstermin ist kostenlos, für Kinder, 
+            moderner Kieferorthopädie. <span className="font-bold text-muted-foreground">Jeder Erstberatungstermin ist kostenlos, für Kinder, 
             Jugendliche und Erwachsene gleichermaßen.</span>
           </p>
         </div>
