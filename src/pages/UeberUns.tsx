@@ -17,15 +17,23 @@ const UeberUns = () => {
       {/* Dr. Angrick */}
       <section className="py-16" aria-label="Dr. Julie Charlotte Angrick">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <div className="rounded-2xl overflow-hidden shadow-xl max-w-md mx-auto lg:mx-0">
-            <img
-              src={drAngrick}
-              alt="Dr. Julie Charlotte Angrick – Fachzahnärztin für Kieferorthopädie"
-              width={800}
-              height={1000}
-              loading="lazy"
-              className="w-full h-auto object-cover"
-            />
+          <div>
+            <h2 className="text-2xl md:text-3xl font-extrabold mb-1">
+              Dr. Julie Charlotte <span className="text-primary">Angrick</span>
+            </h2>
+            <p className="text-primary font-semibold mb-6">
+              Fachzahnärztin für Kieferorthopädie – Master of Science Kieferorthopädie
+            </p>
+            <div className="rounded-2xl overflow-hidden shadow-xl max-w-md mx-auto lg:mx-0">
+              <img
+                src={drAngrick}
+                alt="Dr. Julie Charlotte Angrick – Fachzahnärztin für Kieferorthopädie"
+                width={800}
+                height={1000}
+                loading="lazy"
+                className="w-full h-auto object-cover"
+              />
+            </div>
           </div>
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-extrabold">
