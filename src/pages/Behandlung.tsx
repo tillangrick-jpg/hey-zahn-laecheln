@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import { Euro, Baby, Users, User } from "lucide-react";
+import { Euro, Users, User } from "lucide-react";
+import kinderImg from "@/assets/kinder-zahnspange.jpg";
 
 const treatments = [
   {
-    icon: Baby,
     title: "Kinder",
+    image: kinderImg,
     sections: [
       {
         content: `Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken. Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.\n\nIn den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.`,
@@ -77,10 +78,22 @@ const Behandlung = () => {
               key={t.title}
               className={`${t.color} rounded-2xl p-8 md:p-10`}
             >
-              <div className="flex items-center gap-4 mb-6">
-                <t.icon className="text-primary shrink-0" size={40} />
-                <h2 className="text-2xl md:text-3xl font-bold">{t.title}</h2>
-              </div>
+              {t.image ? (
+                <div className="mb-6">
+                  <img
+                    src={t.image}
+                    alt={t.title}
+                    className="w-full h-64 object-cover rounded-2xl"
+                    style={{ filter: "saturate(0.85) brightness(1.05)" }}
+                  />
+                  <h2 className="text-2xl md:text-3xl font-bold mt-5">{t.title}</h2>
+                </div>
+              ) : (
+                <div className="flex items-center gap-4 mb-6">
+                  {t.icon && <t.icon className="text-primary shrink-0" size={40} />}
+                  <h2 className="text-2xl md:text-3xl font-bold">{t.title}</h2>
+                </div>
+              )}
               {t.sections.map((section, i) => (
                 <div key={i} className={i > 0 ? "mt-6" : ""}>
                   {section.subtitle && (
