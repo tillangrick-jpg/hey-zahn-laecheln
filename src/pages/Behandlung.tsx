@@ -7,6 +7,7 @@ const treatments = [
   {
     title: "Kinder",
     image: kinderImg,
+    imagePosition: "center 30%",
     sections: [
       {
         content: `Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken. Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.\n\nIn den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.`,
@@ -16,13 +17,14 @@ const treatments = [
   },
   {
     image: jugendlicheImg,
+    imagePosition: "center 20%",
     title: "Jugendliche",
     sections: [
       {
         content: `In diesem Alter sprechen wir von einer Hauptbehandlung. Sie ist wie eine gemeinsame Reise, die in mehreren Schritten verläuft. Häufig beginnt sie mit einer losen Zahnspange, um Platz zu schaffen, das Wachstum zu lenken oder erste Korrekturen vorzunehmen.\n\nSobald alle bleibenden Zähne durchgebrochen sind, kann die Behandlung mit einer festen Zahnspange fortgesetzt werden. Sind sowohl die Zahnstellung als auch die Bisslage korrigiert, folgt die Retentionsphase. In dieser Phase stabilisieren wir das erreichte Ergebnis, damit das schöne Lächeln langfristig erhalten bleibt.\n\nEine Hauptbehandlung bei Jugendlichen ist selbstverständlich auch mit unsichtbaren, herausnehmbaren Alignern möglich. Eine moderne, ästhetische Alternative zur klassischen festen Zahnspange.`,
       },
     ],
-    color: "bg-blue-50",
+    color: "bg-secondary",
   },
   {
     icon: User,
@@ -84,8 +86,8 @@ const Behandlung = () => {
                   <img
                     src={t.image}
                     alt={t.title}
-                    className="w-full h-64 object-cover object-[center_30%] rounded-2xl"
-                    style={{ filter: "saturate(0.85) brightness(1.05)" }}
+                    className="w-full h-64 object-cover rounded-2xl"
+                    style={{ filter: "saturate(0.85) brightness(1.05)", objectPosition: t.imagePosition || "center" }}
                   />
                   <h2 className="text-2xl md:text-3xl font-bold mt-5">{t.title}</h2>
                 </div>
