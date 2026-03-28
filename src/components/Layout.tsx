@@ -87,7 +87,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <footer className="bg-foreground text-background py-12" role="contentinfo">
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <img src={logo} alt="hey :) Logo" className="h-12 mb-4 brightness-0 invert" />
+            <img src={logo} alt="hey :) Logo" className="h-12 mb-4" />
             <p className="text-sm opacity-80">
               Fachpraxis für Kieferorthopädie in Berlin Pankow Niederschönhausen
             </p>
@@ -96,7 +96,14 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             <h3 className="font-bold mb-3 text-lg">Kontakt</h3>
             <div className="space-y-2 text-sm opacity-80">
               <p className="flex items-center gap-2"><Phone size={14} /> Telefon: folgt</p>
-              <p className="flex items-center gap-2"><MapPin size={14} /> Berlin Pankow, Niederschönhausen</p>
+              <a
+                href="https://www.google.com/maps/place/Pastor-Niem%C3%B6ller-Platz+6,+13156+Berlin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:underline"
+              >
+                <MapPin size={14} /> Pastor-Niemöller-Platz 6, 13156 Berlin
+              </a>
             </div>
           </div>
           <div>
@@ -105,6 +112,25 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <p><Link to="/impressum" className="hover:underline">Impressum</Link></p>
               <p><Link to="/datenschutz" className="hover:underline">Datenschutz</Link></p>
             </div>
+          </div>
+          <div className="md:col-span-3">
+            <a
+              href="https://www.google.com/maps/place/Pastor-Niem%C3%B6ller-Platz+6,+13156+Berlin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-2xl overflow-hidden hover:opacity-90 transition-opacity"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2425.5!2d13.3833!3d52.5833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8527b1c8b1b1b%3A0x0!2sPastor-Niem%C3%B6ller-Platz%206%2C%2013156%20Berlin!5e0!3m2!1sde!2sde!4v1"
+                width="100%"
+                height="200"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Standort hey :) Kieferorthopädie Pankow"
+              />
+            </a>
           </div>
         </div>
         <div className="container mt-8 pt-4 border-t border-background/20 text-sm opacity-60 text-center">
