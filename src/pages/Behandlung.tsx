@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { Euro, User } from "lucide-react";
+import { Euro } from "lucide-react";
 import kinderImg from "@/assets/kinder-zahnspange.jpg";
 import jugendlicheImg from "@/assets/jugendliche-zahnspange.jpg";
+import erwachseneImg from "@/assets/erwachsene-zahnspange.jpg";
 
 const treatments = [
   {
@@ -27,6 +28,8 @@ const treatments = [
     color: "bg-secondary",
   },
   {
+    image: erwachseneImg,
+    imagePosition: "center 30%",
     title: "Erwachsene",
     sections: [
       {
