@@ -28,18 +28,26 @@ const Praxis = () => {
           </div>
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-extrabold">
-              Willkommen bei <span className="text-primary">hey :)</span>
+              <span className="text-primary">Hey :)</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               In unserer Fachpraxis für Kieferorthopädie verbinden wir modernste Behandlungsmethoden 
-              mit einer herzlichen, persönlichen Atmosphäre. Wir nehmen uns Zeit für Sie und Ihre Familie – 
+              mit einer herzlichen, persönlichen Atmosphäre. Wir nehmen uns Zeit für Dich und Deine Familie, 
               denn ein schönes Lächeln beginnt mit Vertrauen.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Unser ganzheitliches Konzept umfasst die komplette kieferorthopädische Versorgung: 
-              von der Erstberatung über die individuelle Behandlungsplanung bis zur Nachsorge. 
-              Ob feste Zahnspange, lose Zahnspange oder unsichtbare Aligner wie Invisalign – 
-              wir finden gemeinsam die beste Lösung für schiefe Zähne.
+              Unser ganzheitliches Konzept umfasst die komplette kieferorthopädische Versorgung – 
+              von der Erstberatung über die individuelle Behandlungsplanung bis hin zur Nachsorge. 
+              Ob Behandlung im Kindes- und Jugendalter, eine kleine ästhetische Korrektur oder eine 
+              umfassende Bisslageeinstellung bei Erwachsenen: Wir finden gemeinsam die beste Lösung.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Bei Kindern und Jugendlichen legen wir besonderen Wert auf eine umfassende Diagnostik. 
+              Dafür nutzen wir modernste Technik und arbeiten eng mit Logopäd:innen, Physiotherapeut:innen 
+              und Osteopath:innen zusammen.
+            </p>
+            <p className="text-muted-foreground leading-relaxed font-semibold">
+              Den heranwachsenden Menschen von Kopf bis Fuß zu verstehen, ist unser persönlicher Anspruch.
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               {[
