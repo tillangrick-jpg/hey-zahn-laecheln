@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, Phone, MapPin } from "lucide-react";
+import { Menu, X, Phone, MapPin, TrainFront } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const navItems = [
@@ -104,7 +104,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               >
                 <MapPin size={14} /> Pastor-Niemöller-Platz 6, 13156 Berlin
               </a>
-              <p className="text-sm opacity-80 ml-5">Haltestelle M1 Pastor-Niemöller-Platz 50 m</p>
+              <p className="flex items-center gap-2 text-sm opacity-80"><TrainFront size={14} /> Haltestelle M1 Pastor-Niemöller-Platz · 50 m</p>
             </div>
           </div>
           <div>
