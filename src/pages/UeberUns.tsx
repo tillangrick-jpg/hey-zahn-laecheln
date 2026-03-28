@@ -16,7 +16,7 @@ const UeberUns = () => {
 
       {/* Dr. Angrick */}
       <section className="py-16" aria-label="Dr. Julie Charlotte Angrick">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="rounded-2xl overflow-hidden shadow-xl max-w-md mx-auto lg:mx-0">
             <img
               src={drAngrick}
