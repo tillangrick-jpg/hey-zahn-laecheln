@@ -104,6 +104,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               >
                 <MapPin size={14} /> Pastor-Niemöller-Platz 6, 13156 Berlin
               </a>
+              <p className="text-sm opacity-80 ml-5">Haltestelle M1 Pastor-Niemöller-Platz 50 m</p>
             </div>
           </div>
           <div>
