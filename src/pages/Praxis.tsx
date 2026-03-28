@@ -51,10 +51,10 @@ const Praxis = () => {
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               {[
-                "Digitale Diagnostik",
-                "3D-Planung",
-                "Kassenleistung",
-                "Alle Altersgruppen",
+                "Abdruckfreie Praxis",
+                "Unsichtbare Zahnspange",
+                "Kinder und Jugendliche",
+                "Erwachsene",
               ].map((item) => (
                 <div key={item} className="bg-accent/50 rounded-xl p-4 text-center font-semibold text-sm">
                   {item}
