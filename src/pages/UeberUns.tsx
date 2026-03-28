@@ -19,9 +19,9 @@ const UeberUns = () => {
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div>
             <h2 className="text-2xl md:text-3xl font-extrabold mb-1">
-              Dr. Julie Charlotte <span className="text-primary">Angrick</span>
+              Dr. Julie Charlotte Angrick
             </h2>
-            <p className="text-primary font-semibold mb-6">
+            <p className="text-muted-foreground font-bold mb-6">
               Fachzahnärztin für Kieferorthopädie · Master of Science Kieferorthopädie
             </p>
             <div className="rounded-2xl overflow-hidden shadow-xl max-w-md mx-auto lg:mx-0">
