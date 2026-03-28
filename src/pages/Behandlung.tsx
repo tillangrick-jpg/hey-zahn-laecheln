@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { Euro, Users, User } from "lucide-react";
+import { Euro, User } from "lucide-react";
 import kinderImg from "@/assets/kinder-zahnspange.jpg";
+import jugendlicheImg from "@/assets/jugendliche-zahnspange.jpg";
 
 const treatments = [
   {
@@ -14,14 +15,14 @@ const treatments = [
     color: "bg-secondary",
   },
   {
-    icon: Users,
+    image: jugendlicheImg,
     title: "Jugendliche",
     sections: [
       {
         content: `In diesem Alter sprechen wir von einer Hauptbehandlung. Sie ist wie eine gemeinsame Reise, die in mehreren Schritten verläuft. Häufig beginnt sie mit einer losen Zahnspange, um Platz zu schaffen, das Wachstum zu lenken oder erste Korrekturen vorzunehmen.\n\nSobald alle bleibenden Zähne durchgebrochen sind, kann die Behandlung mit einer festen Zahnspange fortgesetzt werden. Sind sowohl die Zahnstellung als auch die Bisslage korrigiert, folgt die Retentionsphase. In dieser Phase stabilisieren wir das erreichte Ergebnis, damit das schöne Lächeln langfristig erhalten bleibt.\n\nEine Hauptbehandlung bei Jugendlichen ist selbstverständlich auch mit unsichtbaren, herausnehmbaren Alignern möglich. Eine moderne, ästhetische Alternative zur klassischen festen Zahnspange.`,
       },
     ],
-    color: "bg-accent",
+    color: "bg-blue-50",
   },
   {
     icon: User,
