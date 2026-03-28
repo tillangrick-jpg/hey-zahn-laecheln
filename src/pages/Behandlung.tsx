@@ -3,6 +3,36 @@ import { Euro, Baby, Users, User } from "lucide-react";
 
 const treatments = [
   {
+    icon: Baby,
+    title: "Kinder",
+    sections: [
+      {
+        content: `Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken. Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.\n\nIn den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.`,
+      },
+    ],
+    color: "bg-secondary",
+  },
+  {
+    icon: Users,
+    title: "Jugendliche",
+    sections: [
+      {
+        content: `In diesem Alter sprechen wir von einer Hauptbehandlung. Sie ist wie eine gemeinsame Reise, die in mehreren Schritten verläuft. Häufig beginnt sie mit einer losen Zahnspange, um Platz zu schaffen, das Wachstum zu lenken oder erste Korrekturen vorzunehmen.\n\nSobald alle bleibenden Zähne durchgebrochen sind, kann die Behandlung mit einer festen Zahnspange fortgesetzt werden. Sind sowohl die Zahnstellung als auch die Bisslage korrigiert, folgt die Retentionsphase. In dieser Phase stabilisieren wir das erreichte Ergebnis, damit das schöne Lächeln langfristig erhalten bleibt.\n\nEine Hauptbehandlung bei Jugendlichen ist selbstverständlich auch mit unsichtbaren, herausnehmbaren Alignern möglich. Eine moderne, ästhetische Alternative zur klassischen festen Zahnspange.`,
+      },
+    ],
+    color: "bg-accent",
+  },
+  {
+    icon: User,
+    title: "Erwachsene",
+    sections: [
+      {
+        content: `Kieferorthopädie ist in jedem Alter möglich, egal ob es um eine kleine Korrektur der Schneidezähne oder um eine kombiniert kieferorthopädisch kieferchirurgische Bisslageumstellung geht. Entscheidend ist, dass wir gemeinsam ein Ziel definieren und darauf aufbauend eine passende, individuelle Therapie planen.`,
+      },
+    ],
+    color: "bg-secondary",
+  },
+  {
     icon: Euro,
     title: "Kosten",
     sections: [
@@ -18,36 +48,6 @@ const treatments = [
       {
         subtitle: "Privat Versicherte",
         content: `Ob eine Behandlung bei Ihnen oder Ihrem Kind übernommen wird, hängt vom jeweiligen Tarif ab. Gerne prüfen wir das gemeinsam und unterstützen Sie bei der Klärung.`,
-      },
-    ],
-    color: "bg-secondary",
-  },
-  {
-    icon: Baby,
-    title: "Kinder",
-    sections: [
-      {
-        content: `Eine kieferorthopädische Behandlung kann bereits ab dem Alter von vier Jahren im Rahmen einer sogenannten Frühbehandlung sinnvoll sein. In diesem jungen Alter geht es vor allem darum, das Wachstum des Gesichtes und der Zähne in die richtige Richtung zu lenken. Dabei betrachten wir nicht nur die Zahnstellung, sondern auch wichtige funktionelle Aspekte wie Schlucken, Zungenlage und Körperhaltung.\n\nIn den meisten Fällen kommt eine lose Zahnspange zum Einsatz, gelegentlich auch eine festsitzende Apparatur im Oberkiefer. Ziel ist es, frühzeitig Einfluss auf die Entwicklung zu nehmen und spätere, umfangreichere Behandlungen zu vermeiden oder zu erleichtern.`,
-      },
-    ],
-    color: "bg-accent",
-  },
-  {
-    icon: Users,
-    title: "Jugendliche",
-    sections: [
-      {
-        content: `In diesem Alter sprechen wir von einer Hauptbehandlung. Sie ist wie eine gemeinsame Reise, die in mehreren Schritten verläuft. Häufig beginnt sie mit einer losen Zahnspange, um Platz zu schaffen, das Wachstum zu lenken oder erste Korrekturen vorzunehmen.\n\nSobald alle bleibenden Zähne durchgebrochen sind, kann die Behandlung mit einer festen Zahnspange fortgesetzt werden. Sind sowohl die Zahnstellung als auch die Bisslage korrigiert, folgt die Retentionsphase. In dieser Phase stabilisieren wir das erreichte Ergebnis, damit das schöne Lächeln langfristig erhalten bleibt.\n\nEine Hauptbehandlung bei Jugendlichen ist selbstverständlich auch mit unsichtbaren, herausnehmbaren Alignern möglich. Eine moderne, ästhetische Alternative zur klassischen festen Zahnspange.`,
-      },
-    ],
-    color: "bg-secondary",
-  },
-  {
-    icon: User,
-    title: "Erwachsene",
-    sections: [
-      {
-        content: `Kieferorthopädie ist in jedem Alter möglich, egal ob es um eine kleine Korrektur der Schneidezähne oder um eine kombiniert kieferorthopädisch kieferchirurgische Bisslageumstellung geht. Entscheidend ist, dass wir gemeinsam ein Ziel definieren und darauf aufbauend eine passende, individuelle Therapie planen.`,
       },
     ],
     color: "bg-accent",
