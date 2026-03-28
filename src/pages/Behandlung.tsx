@@ -43,8 +43,9 @@ const Behandlung = () => {
             Unsere <span className="text-primary">Behandlungen</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            Von der losen Zahnspange bis zum unsichtbaren Aligner – wir bieten das volle Spektrum 
-            moderner Kieferorthopädie in Berlin Pankow.
+            Von der losen Zahnspange bis zum unsichtbaren Aligner: wir bieten das volle Spektrum 
+            moderner Kieferorthopädie. Jeder Erstberatungstermin ist kostenlos, egal ob Kind, 
+            Jugendlicher oder Erwachsener.
           </p>
         </div>
       </section>
