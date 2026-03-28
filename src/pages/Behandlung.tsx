@@ -88,7 +88,6 @@ const Behandlung = () => {
                     alt={t.title}
                     className="w-full h-64 object-cover rounded-2xl"
                     style={{ filter: "saturate(0.85) brightness(1.05)", objectPosition: t.imagePosition || "center" }}
-                    style={{ filter: "saturate(0.85) brightness(1.05)" }}
                   />
                   <h2 className="text-2xl md:text-3xl font-bold mt-5">{t.title}</h2>
                 </div>
