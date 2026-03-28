@@ -33,7 +33,7 @@ const treatments = [
     title: "Erwachsene",
     sections: [
       {
-        content: `Kieferorthopädie ist in jedem Alter möglich, egal ob es um eine kleine Korrektur der Schneidezähne oder um eine kombiniert kieferorthopädisch kieferchirurgische Bisslageumstellung geht. Entscheidend ist, dass wir gemeinsam ein Ziel definieren und darauf aufbauend eine passende, individuelle Therapie planen.`,
+        content: <>Kieferorthopädie ist in jedem Alter möglich, egal ob es um eine kleine Korrektur der Schneidezähne oder um eine kombiniert kieferorthopädisch kieferchirurgische Bisslageumstellung geht. <span className="font-bold">Entscheidend ist, dass wir gemeinsam ein Ziel definieren und darauf aufbauend eine passende, individuelle Therapie planen.</span></>,
       },
     ],
     color: "bg-secondary",
