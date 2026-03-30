@@ -17,7 +17,7 @@ const Termin = () => {
 
   return (
     <>
-      <section className="bg-accent py-16 md:py-24" aria-label="Termin buchen">
+      <section className="bg-secondary py-8 md:py-12" aria-label="Termin buchen">
         <div className="container">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-6">
             Termin <span className="text-primary">buchen</span>
