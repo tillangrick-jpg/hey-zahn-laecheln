@@ -1,4 +1,4 @@
-import praxisImage from "@/assets/praxis-interior.jpg";
+import baustelleImg from "@/assets/praxis-baustelle.jpg";
 
 const Praxis = () => {
   return (
