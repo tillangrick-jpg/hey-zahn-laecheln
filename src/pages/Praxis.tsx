@@ -9,7 +9,7 @@ const Praxis = () => {
             Unsere <span className="text-primary">Praxis</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mb-12">
-            Moderne Kieferorthopädie in angenehmer Atmosphäre – mitten in Berlin Pankow Niederschönhausen.
+            Moderne Kieferorthopädie in angenehmer Atmosphäre, mitten in Berlin Pankow Niederschönhausen.
           </p>
         </div>
       </section>
