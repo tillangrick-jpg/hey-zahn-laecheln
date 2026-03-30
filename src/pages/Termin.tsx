@@ -131,7 +131,7 @@ const Termin = () => {
                   <MapPin className="text-primary mt-1 shrink-0" size={20} />
                   <div>
                     <p className="font-semibold">Adresse</p>
-                    <p className="text-muted-foreground">Berlin Pankow, Niederschönhausen</p>
+                    <p className="text-muted-foreground">Pastor-Niemöller-Platz 6A<br />13156 Berlin Pankow, Niederschönhausen</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -145,7 +145,12 @@ const Termin = () => {
                   <Clock className="text-primary mt-1 shrink-0" size={20} />
                   <div>
                     <p className="font-semibold">Sprechzeiten</p>
-                    <p className="text-muted-foreground">Nach Vereinbarung</p>
+                    <div className="text-muted-foreground space-y-0.5">
+                      <p>Mo: 9:00–19:00</p>
+                      <p>Di: 9:00–19:00</p>
+                      <p>Mi: 9:00–19:00</p>
+                      <p>Do: 9:00–19:00</p>
+                    </div>
                   </div>
                 </div>
               </div>
