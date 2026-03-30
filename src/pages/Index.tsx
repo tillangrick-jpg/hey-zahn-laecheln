@@ -93,8 +93,8 @@ const Index = () => {
               },
               {
                 icon: Shield,
-                title: "Abdruckfreie Praxis",
-                desc: "Moderne Behandlung ganz ohne unangenehme Abdrücke. Wir arbeiten ausschließlich mit digitalem 3D-Scan.",
+                title: "Unsichtbare Zahnspangen",
+                desc: "Modernste Methoden für ein strahlendes Lächeln. Wir bieten unsichtbare Zahnspangen und digitale Behandlungsplanung für maximalen Komfort.",
                 bg: "bg-secondary",
               },
             ].map((item) => (
