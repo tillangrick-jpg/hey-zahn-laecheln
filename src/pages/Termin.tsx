@@ -146,10 +146,12 @@ const Termin = () => {
                   <div>
                     <p className="font-semibold">Sprechzeiten</p>
                     <div className="text-muted-foreground space-y-0.5">
-                      <p>Mo: 9:00–19:00</p>
-                      <p>Di: 9:00–19:00</p>
-                      <p>Mi: 9:00–19:00</p>
-                      <p>Do: 9:00–19:00</p>
+                      <div className="grid grid-cols-[auto_1fr] gap-x-4 gap-y-0.5">
+                        <span>Mo</span><span>9:00–19:00</span>
+                        <span>Di</span><span>9:00–19:00</span>
+                        <span>Mi</span><span>9:00–19:00</span>
+                        <span>Do</span><span>9:00–19:00</span>
+                      </div>
                     </div>
                   </div>
                 </div>
