@@ -89,7 +89,7 @@ const Index = () => {
                 icon: Heart,
                 title: "Ganzheitliches Konzept",
                 desc: "Individuelle Behandlungspläne für Kinder, Jugendliche und Erwachsene – mit Herz und Leidenschaft.",
-                bg: "bg-accent",
+                bg: "bg-secondary",
               },
               {
                 icon: Shield,
