@@ -63,7 +63,7 @@ const treatments = [
 const Behandlung = () => {
   return (
     <>
-      <section className="bg-secondary py-16 md:py-24" aria-label="Behandlungen">
+      <section className="bg-secondary py-8 md:py-12" aria-label="Behandlungen">
         <div className="container">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-6">
             Unsere <span className="text-primary">Behandlungen</span>
