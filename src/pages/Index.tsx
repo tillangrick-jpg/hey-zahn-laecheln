@@ -93,8 +93,8 @@ const Index = () => {
               },
               {
                 icon: Shield,
-                title: "Kassenleistung",
-                desc: "Wir bieten Behandlungen als Kassenleistung an. Feste Zahnspange, lose Zahnspange und unsichtbare Aligner.",
+                title: "Abdruckfreie Praxis",
+                desc: "Moderne Behandlung ganz ohne unangenehme Abdrücke. Wir arbeiten ausschließlich mit digitalem 3D-Scan.",
                 bg: "bg-secondary",
               },
             ].map((item) => (
