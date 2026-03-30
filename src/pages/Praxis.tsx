@@ -54,10 +54,10 @@ const Praxis = () => {
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               {[
-                "Abdruckfreie Praxis",
-                "Unsichtbare Zahnspange",
-                "Kinder und Jugendliche",
-                "Erwachsene",
+                "Keine Abdrücke notwendig",
+                "Modernste Methoden und Therapien",
+                "Aligner und unsichtbare Zahnspangen",
+                "Behandlung in jedem Alter möglich",
               ].map((item) => (
                 <div key={item} className="bg-accent/50 rounded-xl p-4 text-center font-semibold text-sm">
                   {item}
