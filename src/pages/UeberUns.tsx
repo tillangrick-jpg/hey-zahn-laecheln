@@ -3,7 +3,7 @@ import drAngrick from "@/assets/dr-angrick.jpg";
 const UeberUns = () => {
   return (
     <>
-      <section className="bg-accent py-16 md:py-24" aria-label="Über uns">
+      <section className="bg-accent py-8 md:py-12" aria-label="Über uns">
         <div className="container">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-6">
             Über <span className="text-primary">uns</span>
