@@ -9,7 +9,7 @@ const Praxis = () => {
             Unsere <span className="text-primary">Praxis</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mb-12">
-            Moderne Kieferorthopädie in angenehmer Atmosphäre – mitten in Berlin Pankow Niederschönhausen.
+            Moderne Kieferorthopädie in angenehmer Atmosphäre, mitten in Berlin Pankow Niederschönhausen.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ const Praxis = () => {
               denn ein schönes Lächeln beginnt mit Vertrauen.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Unser ganzheitliches Konzept umfasst die komplette kieferorthopädische Versorgung – 
+              Unser ganzheitliches Konzept umfasst die komplette kieferorthopädische Versorgung, 
               von der Erstberatung über die individuelle Behandlungsplanung bis hin zur Nachsorge. 
               Ob Behandlung im Kindes- und Jugendalter, eine kleine ästhetische Korrektur oder eine 
               umfassende Bisslageeinstellung bei Erwachsenen: Wir finden gemeinsam die beste Lösung.
