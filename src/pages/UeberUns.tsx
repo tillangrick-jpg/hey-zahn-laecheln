@@ -30,7 +30,7 @@ const UeberUns = () => {
           </div>
           <div className="space-y-4">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p className="text-xl font-semibold text-foreground">Hey :)</p>
+              <h2 className="text-2xl md:text-3xl font-extrabold"><span className="text-primary">Hey :)</span></h2>
               <p>
                 schön, dass ich mich vorstellen darf. Ich bin mit Leib und Seele Kieferorthopädin 
                 und liebe meinen Beruf. Für mich steht jeder Mensch als Ganzes im Mittelpunkt mit 
