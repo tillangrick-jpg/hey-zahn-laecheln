@@ -53,7 +53,7 @@ const UeberUns = () => {
                   ["2014", "Staatsexamen"],
                   ["2016", "Curriculum Kinderzahnheilkunde"],
                   ["2017–2020", "Master of Science Kieferorthopädie, DUK Krems"],
-                  ["2021", "Promotion „magna cum laude" an der Charité Berlin"],
+                  ["2021", 'Promotion \u201Emagna cum laude\u201C an der Charité Berlin'],
                   ["2020–2023", "Weiterbildung zur Fachzahnärztin, Jagiellonen-Universität Krakau und Fachpraxis in Berlin"],
                   ["2023–2026", "Leitung MVZ Ringcenter Dr. Dörfer Kieferorthopädie in Friedrichshain"],
                   ["2026", "Gründung von hey :)"],
