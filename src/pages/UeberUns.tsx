@@ -9,7 +9,7 @@ const UeberUns = () => {
             Über <span className="text-primary">uns</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl">
-            Lernen Sie unser Team kennen – mit Leidenschaft für schöne Zähne und gesunde Kiefer.
+            Lernen Sie unser Team kennen.
           </p>
         </div>
       </section>
