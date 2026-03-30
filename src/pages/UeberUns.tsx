@@ -1,4 +1,4 @@
-import drAngrick from "@/assets/dr-angrick.jpg";
+import { Stethoscope } from "lucide-react";
 
 const UeberUns = () => {
   return (
@@ -24,15 +24,8 @@ const UeberUns = () => {
             <p className="text-muted-foreground font-bold mb-6">
               Fachzahnärztin für Kieferorthopädie · Master of Science Kieferorthopädie
             </p>
-            <div className="rounded-2xl overflow-hidden shadow-xl max-w-md mx-auto lg:mx-0">
-              <img
-                src={drAngrick}
-                alt="Dr. Julie Charlotte Angrick – Fachzahnärztin für Kieferorthopädie"
-                width={800}
-                height={1000}
-                loading="lazy"
-                className="w-full h-auto object-cover"
-              />
+            <div className="bg-secondary rounded-2xl shadow-xl max-w-md mx-auto lg:mx-0 flex items-center justify-center p-12">
+              <Stethoscope className="text-primary" size={120} />
             </div>
           </div>
           <div className="space-y-4">
