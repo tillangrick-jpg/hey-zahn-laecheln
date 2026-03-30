@@ -3,7 +3,7 @@ import baustelleImg from "@/assets/praxis-baustelle.jpg";
 const Praxis = () => {
   return (
     <>
-      <section className="bg-secondary py-16 md:py-24" aria-label="Unsere Praxis">
+      <section className="bg-secondary py-8 md:py-12" aria-label="Unsere Praxis">
         <div className="container">
           <h1 className="text-3xl md:text-5xl font-extrabold mb-6">
             Unsere <span className="text-primary">Praxis</span>
