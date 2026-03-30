@@ -1,4 +1,4 @@
-import drAngrick from "@/assets/dr-angrick.jpg";
+import { Stethoscope } from "lucide-react";
 
 const UeberUns = () => {
   return (
