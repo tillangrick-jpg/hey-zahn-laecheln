@@ -16,15 +16,18 @@ const Praxis = () => {
 
       <section className="py-16" aria-label="Praxis Vorstellung">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="rounded-2xl overflow-hidden shadow-xl">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl">
             <img
-              src={praxisImage}
-              alt="Moderne Behandlungsräume der Kieferorthopädie Praxis in Pankow"
+              src={baustelleImg}
+              alt="Praxis im Aufbau – Coming soon"
               width={1920}
               height={1080}
               loading="lazy"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover blur-sm"
             />
+            <div className="absolute inset-0 flex items-center justify-center bg-foreground/30">
+              <span className="text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg">Coming soon!</span>
+            </div>
           </div>
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-extrabold">
