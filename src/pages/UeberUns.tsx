@@ -26,6 +26,7 @@ const UeberUns = () => {
             </p>
             <div className="bg-secondary rounded-2xl shadow-xl max-w-md mx-auto lg:mx-0 flex items-center justify-center p-12">
               <Stethoscope className="text-primary" size={120} />
+            </div>
           </div>
           <div className="space-y-4">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
