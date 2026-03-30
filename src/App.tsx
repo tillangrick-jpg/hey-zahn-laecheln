@@ -11,6 +11,7 @@ import UeberUns from "./pages/UeberUns";
 import Behandlung from "./pages/Behandlung";
 import Termin from "./pages/Termin";
 import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
