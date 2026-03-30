@@ -40,7 +40,7 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="https://www.doctolib.de"
+                  href="https://www.doctolib.de/kieferorthopadie/berlin/julie-angrick"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="doctolib-btn"
