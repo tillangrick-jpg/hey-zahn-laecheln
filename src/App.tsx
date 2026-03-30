@@ -11,6 +11,7 @@ import UeberUns from "./pages/UeberUns";
 import Behandlung from "./pages/Behandlung";
 import Termin from "./pages/Termin";
 import Impressum from "./pages/Impressum";
+import Datenschutz from "./pages/Datenschutz";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
               <Route path="/behandlung" element={<Behandlung />} />
               <Route path="/termin" element={<Termin />} />
               <Route path="/impressum" element={<Impressum />} />
+              <Route path="/datenschutz" element={<Datenschutz />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Layout>
