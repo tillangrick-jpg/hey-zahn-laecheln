@@ -34,8 +34,13 @@ const Datenschutz = () => {
 
           {/* 2 */}
           <div>
-            <h2 className="text-xl font-bold mb-3">2. Datenschutzbeauftragte:r</h2>
-            <p>Eine Verpflichtung zur Benennung eines Datenschutzbeauftragten besteht derzeit nicht.</p>
+            <h2 className="text-xl font-bold mb-3">2. Datenschutzbeauftragte</h2>
+            <p>
+              Dr. Julie Charlotte Angrick<br />
+              Pastor-Niemöller-Platz 6a<br />
+              13156 Berlin<br />
+              E‑Mail: <a href="mailto:info@hey-kieferorthopaedie.de" className="text-primary hover:underline">info@hey-kieferorthopaedie.de</a>
+            </p>
           </div>
 
           {/* 3 */}
