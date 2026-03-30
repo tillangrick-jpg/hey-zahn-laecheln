@@ -35,8 +35,8 @@ const Index = () => {
                 Fachpraxis für <span className="text-primary">Kieferorthopädie</span> in Pankow
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg">
-                Herzlich willkommen bei hey :) Kieferorthopädie Pankow! Ihre Fachpraxis für schiefe Zähne, 
-                Zahnspangen und Aligner in Berlin Niederschönhausen. Wir behandeln Kinder, Jugendliche und Erwachsene.
+                Herzlich willkommen bei hey :). Ihre Fachpraxis für Kieferorthopädie in Pankow. 
+                Wir bieten das komplette Spektrum der Kieferorthopädie für ein perfektes Lächeln.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
