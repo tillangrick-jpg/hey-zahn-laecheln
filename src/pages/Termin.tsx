@@ -37,7 +37,7 @@ const Termin = () => {
               Am schnellsten geht es über Doctolib – wählen Sie einfach Ihren Wunschtermin.
             </p>
             <a
-              href="https://www.doctolib.de"
+              href="https://www.doctolib.de/kieferorthopadie/berlin/julie-angrick"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-card text-primary font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 hover:shadow-lg hover:scale-105"
