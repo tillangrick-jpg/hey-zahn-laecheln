@@ -82,13 +82,13 @@ const Index = () => {
               {
                 icon: Star,
                 title: "Fachkompetenz",
-                desc: "Master of Science Kieferorthopädie und Fachzahnärztin – höchste Qualifikation für Ihre Behandlung.",
+                desc: "Master of Science Kieferorthopädie und Fachzahnärztin. Höchste Qualifikation für Ihre Behandlung.",
                 bg: "bg-secondary",
               },
               {
                 icon: Heart,
                 title: "Ganzheitliches Konzept",
-                desc: "Individuelle Behandlungspläne für Kinder, Jugendliche und Erwachsene – mit Herz und Leidenschaft.",
+                desc: "Individuelle Behandlungspläne für Kinder, Jugendliche und Erwachsene. Mit Herz und Leidenschaft.",
                 bg: "bg-secondary",
               },
               {
