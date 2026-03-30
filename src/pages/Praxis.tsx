@@ -35,7 +35,7 @@ const Praxis = () => {
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               In unserer Fachpraxis für Kieferorthopädie verbinden wir modernste Behandlungsmethoden 
-              mit einer herzlichen, persönlichen Atmosphäre. Wir nehmen uns Zeit für Dich und Deine Familie, 
+              mit einer herzlichen, persönlichen Atmosphäre. Wir nehmen uns Zeit für Sie und Ihre Familie, 
               denn ein schönes Lächeln beginnt mit Vertrauen.
             </p>
             <p className="text-muted-foreground leading-relaxed">
