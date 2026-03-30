@@ -46,17 +46,24 @@ const UeberUns = () => {
             </div>
             <div>
               <h3 className="text-lg font-bold text-foreground mb-3">Vita</h3>
-              <ul className="space-y-1.5 text-muted-foreground text-sm leading-relaxed list-disc list-inside">
-                <li>geboren in Heidelberg</li>
-                <li>2008–2014: Studium der Zahnmedizin an der MHH Hannover und Charité Berlin</li>
-                <li>2014 Staatsexamen</li>
-                <li>2016 Curriculum Kinderzahnheilkunde</li>
-                <li>2017–2020 Master of Science Kieferorthopädie, DUK Krems</li>
-                <li>2021 Promotion „magna cum laude" an der Charité Berlin</li>
-                <li>2020–2023 Weiterbildung zur Fachzahnärztin, Jagiellonen-Universität Krakau und Fachpraxis in Berlin</li>
-                <li>2023–2026 Leitung MVZ Ringcenter Dr. Dörfer Kieferorthopädie in Friedrichshain</li>
-                <li>2026 Gründung von hey :)</li>
-              </ul>
+              <dl className="space-y-2 text-muted-foreground text-sm leading-relaxed">
+                {[
+                  ["", "geboren in Heidelberg"],
+                  ["2008–2014", "Studium der Zahnmedizin an der MHH Hannover und Charité Berlin"],
+                  ["2014", "Staatsexamen"],
+                  ["2016", "Curriculum Kinderzahnheilkunde"],
+                  ["2017–2020", "Master of Science Kieferorthopädie, DUK Krems"],
+                  ["2021", "Promotion „magna cum laude" an der Charité Berlin"],
+                  ["2020–2023", "Weiterbildung zur Fachzahnärztin, Jagiellonen-Universität Krakau und Fachpraxis in Berlin"],
+                  ["2023–2026", "Leitung MVZ Ringcenter Dr. Dörfer Kieferorthopädie in Friedrichshain"],
+                  ["2026", "Gründung von hey :)"],
+                ].map(([year, text], i) => (
+                  <div key={i} className="grid grid-cols-[90px_1fr] gap-3">
+                    <dt className="font-bold text-foreground text-right">{year}</dt>
+                    <dd>{text}</dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           </div>
         </div>
