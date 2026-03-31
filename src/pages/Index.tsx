@@ -17,6 +17,14 @@ const heroImages = [
 import logo from "@/assets/logo.png";
 
 const Index = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % heroImages.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <>
       {/* JSON-LD structured data */}
