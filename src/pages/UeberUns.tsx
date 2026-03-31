@@ -57,7 +57,7 @@ const UeberUns = () => {
                   ["2026", "Gründung von hey :)"],
                 ].map(([year, text], i) => (
                   <div key={i} className="grid grid-cols-[90px_1fr] gap-3">
-                    <dt className="font-bold text-foreground">{year}</dt>
+                    <dt className="font-bold text-muted-foreground">{year}</dt>
                     <dd>{text}</dd>
                   </div>
                 ))}
