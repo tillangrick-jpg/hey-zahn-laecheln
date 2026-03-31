@@ -18,7 +18,7 @@ const UeberUns = () => {
       <section className="py-16" aria-label="Dr. Julie Charlotte Angrick">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-1">
+            <h2 className="text-2xl md:text-3xl font-bold mb-1 text-muted-foreground">
               Dr. Julie Charlotte Angrick
             </h2>
             <p className="text-muted-foreground font-bold mb-6">
