@@ -1,6 +1,19 @@
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Star, Heart, Shield } from "lucide-react";
-import heroImage from "@/assets/hero-children.jpg";
+import heroImg1 from "@/assets/hero-aligner-woman.jpg";
+import heroImg2 from "@/assets/hero-aligner-man.jpg";
+import heroImg3 from "@/assets/hero-child-brace.jpg";
+import heroImg4 from "@/assets/hero-child-aligner.jpg";
+import heroImg5 from "@/assets/hero-teen-braces.jpg";
+
+const heroImages = [
+  { src: heroImg1, alt: "Junge Frau mit Aligner-Schiene" },
+  { src: heroImg2, alt: "Junger Mann mit Aligner-Schiene" },
+  { src: heroImg3, alt: "Kind mit bunter Zahnspange" },
+  { src: heroImg4, alt: "Mädchen mit Aligner-Schiene" },
+  { src: heroImg5, alt: "Jugendlicher mit fester Zahnspange" },
+];
 import logo from "@/assets/logo.png";
 
 const Index = () => {
