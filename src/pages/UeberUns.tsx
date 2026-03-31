@@ -32,7 +32,7 @@ const UeberUns = () => {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <h2 className="text-2xl md:text-3xl font-bold"><span className="text-primary">Hey :)</span></h2>
               <p>
-                schön, dass ich mich vorstellen darf. Ich bin mit Leib und Seele Kieferorthopädin 
+                Schön, dass ich mich vorstellen darf. Ich bin mit Leib und Seele Kieferorthopädin 
                 und liebe meinen Beruf. Für mich steht jeder Mensch als Ganzes im Mittelpunkt mit 
                 individuellen Bedürfnissen, persönlichen Anliegen und unterschiedlichen Lebenssituationen. 
                 Mein Ziel ist es, dass sich alle, die zu mir kommen, sicher, verstanden und wirklich wohlfühlen.
