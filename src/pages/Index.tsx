@@ -78,14 +78,31 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img
-                  src={heroImage}
-                  alt="Lächelnde Kinder mit schönen Zähnen"
-                  width={1920}
-                  height={1080}
-                  className="w-full h-auto object-cover"
-                />
+              <div className="rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
+                {heroImages.map((img, index) => (
+                  <img
+                    key={img.alt}
+                    src={img.src}
+                    alt={img.alt}
+                    width={1920}
+                    height={1080}
+                    className={`absolute inset-0 w-full h-full object-cover saturate-[0.85] brightness-105 transition-opacity duration-1000 ${
+                      index === currentImage ? "opacity-100" : "opacity-0"
+                    }`}
+                  />
+                ))}
+              </div>
+              <div className="flex justify-center gap-2 mt-4">
+                {heroImages.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentImage(index)}
+                    className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
+                      index === currentImage ? "bg-primary scale-125" : "bg-muted-foreground/30"
+                    }`}
+                    aria-label={`Bild ${index + 1} anzeigen`}
+                  />
+                ))}
               </div>
             </div>
           </div>
