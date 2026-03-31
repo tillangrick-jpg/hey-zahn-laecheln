@@ -38,7 +38,7 @@ const UeberUns = () => {
                 Mein Ziel ist es, dass sich alle, die zu mir kommen, sicher, verstanden und wirklich wohlfühlen.
               </p>
               <p>
-                Ich lebe in Pankow, gemeinsam mit meinem Mann und unserer wunderbaren 
+                Ich lebe ebenfalls in Pankow, gemeinsam mit meinem Mann und unserer wunderbaren 
                 Tochter und schätze unseren Kiez mit all seinen Facetten sehr.
               </p>
             </div>
