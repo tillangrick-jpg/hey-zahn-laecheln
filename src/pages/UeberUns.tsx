@@ -46,7 +46,7 @@ const UeberUns = () => {
               <h3 className="text-lg font-bold text-foreground mb-3">Vita</h3>
               <dl className="space-y-2 text-muted-foreground text-sm leading-relaxed">
                 {[
-                  ["✶", "geboren in Heidelberg"],
+                  ["", "geboren in Heidelberg"],
                   ["2008–2014", "Studium der Zahnmedizin an der MHH Hannover und Charité Berlin"],
                   ["2014", "Staatsexamen"],
                   ["2016", "Curriculum Kinderzahnheilkunde"],
