@@ -18,7 +18,7 @@ const UeberUns = () => {
       <section className="py-16" aria-label="Dr. Julie Charlotte Angrick">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-1">
+            <h2 className="text-2xl md:text-3xl font-bold mb-1 text-muted-foreground">
               Dr. Julie Charlotte Angrick
             </h2>
             <p className="text-muted-foreground font-bold mb-6">
@@ -43,10 +43,10 @@ const UeberUns = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-foreground mb-3">Vita</h3>
+              <h3 className="text-lg font-bold text-muted-foreground mb-3">Vita</h3>
               <dl className="space-y-2 text-muted-foreground text-sm leading-relaxed">
                 {[
-                  ["✶", "geboren in Heidelberg"],
+                  ["", "geboren in Heidelberg"],
                   ["2008–2014", "Studium der Zahnmedizin an der MHH Hannover und Charité Berlin"],
                   ["2014", "Staatsexamen"],
                   ["2016", "Curriculum Kinderzahnheilkunde"],
@@ -57,7 +57,7 @@ const UeberUns = () => {
                   ["2026", "Gründung von hey :)"],
                 ].map(([year, text], i) => (
                   <div key={i} className="grid grid-cols-[90px_1fr] gap-3">
-                    <dt className="font-bold text-foreground">{year}</dt>
+                    <dt className="font-bold text-muted-foreground">{year}</dt>
                     <dd>{text}</dd>
                   </div>
                 ))}
