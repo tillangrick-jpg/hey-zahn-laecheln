@@ -78,7 +78,7 @@ const Index = () => {
               </div>
             </div>
             <div className="relative">
-              <div className="rounded-[4rem] overflow-hidden shadow-2xl aspect-[4/3]">
+              <div className="relative rounded-[4rem] overflow-hidden shadow-2xl aspect-[4/3]">
                 {heroImages.map((img, index) => (
                   <img
                     key={img.alt}
