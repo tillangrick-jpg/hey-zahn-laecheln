@@ -37,12 +37,6 @@ const UeberUns = () => {
                 individuellen Bedürfnissen, persönlichen Anliegen und unterschiedlichen Lebenssituationen. 
                 Mein Ziel ist es, dass sich alle, die zu mir kommen, sicher, verstanden und wirklich wohlfühlen.
               </p>
-              <p>
-                Neben meiner Arbeit liebe ich Kunst und Design. An Wochenenden besuche ich gerne 
-                Ausstellungen oder Kulturveranstaltungen, lasse mich inspirieren und entdecke neue 
-                Perspektiven. Ich lebe in Pankow, gemeinsam mit meinem Mann und unserer wunderbaren 
-                Tochter und schätze unseren Kiez mit all seinen Facetten sehr.
-              </p>
             </div>
             <div>
               <h3 className="text-lg font-bold text-foreground mb-3">Vita</h3>
