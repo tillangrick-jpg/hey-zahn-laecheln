@@ -5,7 +5,7 @@ const UeberUns = () => {
     <>
       <section className="bg-secondary py-8 md:py-12" aria-label="Über uns">
         <div className="container">
-          <h1 className="text-3xl md:text-5xl font-extrabold mb-6">
+          <h1 className="text-2xl md:text-4xl font-bold mb-6">
             Über <span className="text-primary">uns</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl">
