@@ -43,7 +43,7 @@ const UeberUns = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-bold text-muted-foreground mb-3">Vita</h3>
+              <h3 className="text-lg font-bold text-muted-foreground mt-6 mb-3">Vita</h3>
               <dl className="space-y-2 text-muted-foreground text-sm leading-relaxed">
                 {[
                   ["", "geboren in Heidelberg"],
